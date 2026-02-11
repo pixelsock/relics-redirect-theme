@@ -1,0 +1,9 @@
+{
+  "current": "Default",
+  "presets": {
+    "Default": {
+      "storefront_hostname": "relicsandreverie.com",
+      "integrate_with_customer_accounts": true
+    }
+  }
+}
