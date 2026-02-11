@@ -1,7 +1,16 @@
-{% comment %} Redirect to storefront... {% endcomment %}
+<div class="redirect-content">
+  <span class="discovery-tag">The Curation</span>
+  <h1 class="redirect-title">Redirecting...</h1>
+  <div class="divider"></div>
+  <p>
+    <a id="redirect-link" class="redirect-link" href="https://{{ settings.storefront_hostname }}/">
+      Click here if you are not automatically redirected
+    </a>
+  </p>
+</div>
 
 {% schema %}
 {
-  "name": "Redirect"
+  "name": "Main Redirect"
 }
 {% endschema %}
